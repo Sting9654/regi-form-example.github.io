@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;900&family=Open+Sans:wght@300;400;500;600;700;800&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background: url(media/3386851.jpg) no-repeat;
+}
+
+.form-register{
+    width: 500px;
+    background: #435058;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 6px;
+    font-family: 'Roboto', sans-serif;
+    color: #E7F0FF;
+    box-shadow: 7px 13px 37px #F56476;
+}
+
+.form-register h4{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.controls{
+    width: 100%;
+    background: #435058;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #ECE8EF;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #F56476;
+}
+
+.form-register p{
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.form-register a {
+    color: #E7F0FF;
+    text-decoration: none;
+}
+
+.form-register a:hover{
+    color: #F56476;
+    text-decoration: underline;
+}
+
+.button{
+    width: 100%;
+    background: #F56476;
+    border: none;
+    padding: 12px; 
+    color: #E7F0FF;
+    margin: 16px 0;
+    font-size: 18px;
+}
